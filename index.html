@@ -1,0 +1,173 @@
+<!-- Let's start making the resume, we'll make a good code structure and keep things reusable as much as possible -->
+
+
+<html>
+
+	<head>
+
+		<title>Resume | Iron Man</title>
+
+		<!-- Again relative linking of the css file for the style -->
+		<link rel="stylesheet" type="text/css" href="static/stylesheets/style.css">
+
+
+
+	</head>
+
+	<body>
+
+		<!-- unique id given to the header -->
+		<header id="body-header">
+
+			<!-- nav signifies navigation element on the page -->
+			<nav>
+				<!-- horizontal-list for making the list horizontal and text-center is used for center aligning the text anywhere the class is used -->
+				<!-- Menu is a list, so we use ul tag -->
+				<ul class="horizontal-list text-center">
+					<li>
+						<a class="white-text" href="#">HOME</a>
+					</li>
+					<li>
+						<a class="white-text" href="#">ABOUT</a>
+					</li>
+					<li id = "work-link">
+						<!-- since each menu item is a link, we have used <a> tag, putting the id of the target element makes the page go to that element when this <a> element is clicked-->
+						<a class="white-text" href="#work">WORK</a>
+					</li>
+					<li>
+						<a class="white-text" href="#">PORTFOLIO</a>
+					</li>
+					<li>
+						<a class="white-text" href="#">CONTACT</a>
+					</li>
+				</ul>
+			</nav>
+
+			<!-- content and social icons grouped into one division -->
+			<div id="body-header-content">
+				<div class="text-center white-text">
+					<h1>I'm Harsh bhama</h1>
+					<p class = "body-padding">
+						Hey There !!!! I am building a website and goining for the full stack development
+					program.Soon I'll be able to manage front-end as well as back-end interface.These things will
+				add up to my new skill set.</span>
+					</p>
+				</div>
+
+				<div class="social-icons">
+					<!-- multiple classes can added with a space between their names -->
+					<ul class="horizontal-list text-center white-text">
+						<li>
+							<img src="static/images/sm-facebook-icon.png">
+						</li>
+						<li>
+							<img src="static/images/sm-twitter-icon.png">
+						</li>
+						<li>
+							<img src="static/images/sm-youtube-icon.png">
+						</li>
+						<li>
+							<img src="static/images/sm-google-icon.png">
+						</li>
+						<li>
+							<img src="static/images/sm-linkedin-icon.png">
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</header>
+
+		<main>
+			<!-- This is the section to which that <a> tag points  -->
+			<section >
+				<!-- divide the section into 2 parts, LHS and RHS -->
+				<div class="lhs">
+					<p class="section-heading">
+						Skills
+					</p>
+
+				</div>
+				<div class="rhs">
+					<p>
+						Lorem ipsum dolor sit amet, vix te quidam commune offendit. Ei dissentiunt ullamcorper vel, vix putant aliquip copiosae no. Mucius interesset at vix, pri congue dolores interesset in, id partem oporteat vim. Partem doming vel ad, atqui legimus noluisse sit eu.
+					</p>
+
+					<div>
+						<!-- this is the progress bar, outer div is the container with a specific height and background color -->
+						<div class="progress-display">
+							<!-- the class added to inner div makes it expand to a specific width as per the percentage desired -->
+							<div class="thirty-percent"></div>
+						</div>
+
+						<div class="progress-display">
+							<div class="thirty-five-percent"></div>
+						</div>
+
+						<div class="progress-display">
+							<div class="ninety-five-percent"></div>
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer-background">
+
+			<div class="footer-header-1">
+				
+				<img class="img-style" src ="profilepic.jpg">
+
+			</div>
+			<div class="footer-header-2">
+				<p class="heading-style"> rbenv rehashLorem ipsum dolor sit amet, dicit primis fastidii mel ea, movet verterem eum in, dolore primis noster no vis. Ne ius omnis possit aliquando, usu ridens offendit scriptorem cu, sit ad summo assentior. Ne cibo petentium mediocritatem cum, in sed laoreet perpetua, sea ne suscipit postulant. Eu vix nostro nonumes veritus, dolores molestiae ne nec.</p>
+
+
+			</div>
+			<div class="footer-header-3">
+
+			<form>
+				<p class="sub-heading">Name &nbsp &nbsp:<input type="text" name="text"></p><br>
+				<p class="sub-heading">Email &nbsp &nbsp :<input type="text" name="text"></p><br>
+				<p class="sub-heading">Subject :<input  type="text" name="text"></p><br>
+				<p class="sub-heading">Text &nbsp &nbsp &nbsp:<textarea rows="5" cols="20"></textarea></p>
+
+			</form>	
+
+			</div>
+			<div class="footer-header-4">
+				<p class="heading-style">  Address and phone</p>
+				<p class="sub-heading"> ommrmferfeferfer ferf erferofmerfme fepokfpewmfwef ewfmemffpemfew fpwempwf we fpewmfpew few</p>
+				<p class="heading-style">Address and phone</p>
+				<p class="sub-heading">fdfd od oe oec eo cod oc dsoc docdcdcdccpdddddddddddddddmoe co eceoivoeeeeeeeeeeeeeve e ov
+				evemvmrev eo veo voer voe ovmdkv </p>
+				<p class="heading-style">Address and phone</p>
+				<p class="sub-heading">,kejfklewflkwefwe lew flewfn,we mrr[gmweojfpewnfo ewfo wke efjwe fjk f wpfefmwmee fefefewfewfnewf welnfe fe fmeflwe fewnfkenwf el el</p>
+
+			</div>
+
+		</footer>
+
+			<script type="text/javascript" src="static/scripts/script.js"></script>
+
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
