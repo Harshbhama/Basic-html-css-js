@@ -20,6 +20,17 @@ a{
     background-size: cover;
     background-attachment: fixed;
 }
+.pic-styling{
+	 margin-top: 9vh;
+
+	    padding-left: 43%;
+}
+
+#pic-style{
+
+	        width: 122px;
+    border-radius: 93px;
+}
 
 .body-padding{
 	    padding-left: 250;
@@ -49,7 +60,8 @@ a{
 
 
 #body-header-content{
-	margin-top: 25vh;
+	margin-top: 0vh;
+	    padding-right: 44px;
 }
 
 
